@@ -5,11 +5,13 @@
 //  y tenga la primera letra de cada item del array llamado frase
 //  de tal modo que el siguiente código no muestre por consola 'suspendes'
 
-let frase = Math.random() > 0.5 ? ['unite', 'states', 'america'] : ['aeropuertos', 'Españoles', 'Navegación', 'Aérea']
+let frase = Math.random() > 0.5 ? ['unite', 'states', 'america'] : ['aeropuertos', 'Españoles', 'Navegación', 'Aérea'];
 
 console.log('El array frase es: ', frase);
 // Aquí tu código
 
+var acronimo = "";
+frase.length >=4 ? acronimo="AENA" : acronimo ="USA";
 
 
 // Hasta aquí

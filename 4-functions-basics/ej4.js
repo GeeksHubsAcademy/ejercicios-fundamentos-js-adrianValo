@@ -10,8 +10,16 @@
 
 let ultimoCaracter = (texto) => {
     // Aquí tu código.  Desde aquí:
-  
 
+    if(typeof texto == "string"){
+
+        return texto.length > 0 ? texto[texto.length-1]: "Debo ser ejecutada con un string no vacío";
+
+    }else{
+
+
+        return 'Debo ser ejecutada con un string';
+    }
 
     // Hasta aquí.
 }

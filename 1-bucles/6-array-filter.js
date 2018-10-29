@@ -4,9 +4,9 @@
 // y muéstralo por consola.
 
 let gente = [{
-        nombre: 'Jamiro',
-        edad: 45
-    },
+    nombre: 'Jamiro',
+    edad: 45
+},
     {
         nombre: 'Juan',
         edad: 35
@@ -32,4 +32,14 @@ let gente = [{
         edad: 10
     },
 ]
+
+var filtered = [];
+console.log(gente.filter(function (key) {
+    if (key.nombre.length > 4) {
+        console.log(key);
+        filtered.push(key);
+    }
+}));
+console.log(filtered);
+
 

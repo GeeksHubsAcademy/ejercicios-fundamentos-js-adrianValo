@@ -10,6 +10,14 @@
 
 // Aquí tu código
 
+function muestraPorConsolaEurosEnPesetas(a) {
+    if(typeof  a != "number"){
+        throw new Error('convierteEurosEnPesetas debe recibir un number');
+    }else {
+        let peseta = 168;
+        console.log( a/peseta);
+    }
+}
 
 // Hasta aquí
 

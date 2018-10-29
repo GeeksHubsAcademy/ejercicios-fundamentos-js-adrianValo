@@ -17,7 +17,10 @@ console.log('El array original es:  arr =', arr);
 // Aquí tu código
 
 
-
+let dobleArr =[];
+for (let i = 0; i < arr.length ; i++) {
+    dobleArr[i] = arr[i] * 2;
+}
 
 // Hasta aquí
 console.log('El array nuevo es:  doubleArr =', dobleArr);

@@ -35,3 +35,13 @@ let gente = [{
     },
 ]
 
+var filtered = [];
+console.log(gente.filter(function (key) {
+    if (key.edad < 40 && key.nombre[0] == "J") {
+        console.log(key);
+        filtered.push(key);
+    }
+}));
+console.log(filtered);
+
+

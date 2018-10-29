@@ -33,3 +33,14 @@ let gente = [{
         edad: 10
     },
 ]
+/*
+for(let a = 0; a< gente.length;a++){
+    if(gente[a].edad > 25){
+        console.log(gente[a]);
+    }
+}*/
+for(var pro of gente){
+    if(pro.edad > 25){
+        console.log(pro);
+    }
+}

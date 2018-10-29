@@ -8,6 +8,11 @@
 
 // Aquí tu código
 
+function convierteEurosEnPesetas(a) {
+
+    let peseta = 168;
+    return peseta * a;
+}
 
 // Hasta aquí
 

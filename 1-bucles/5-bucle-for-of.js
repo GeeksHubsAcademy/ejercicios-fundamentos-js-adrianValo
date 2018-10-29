@@ -32,4 +32,14 @@ let gente = [{
         nombre: 'Jenny',
         edad: 10
     },
-]
+]/*
+for (let a = 0; a < gente.length; a++){
+    if(gente[a].nombre.charAt(0) == "J"){
+        console.log(gente[a].nombre);
+    }
+}*/
+for(var pro of gente){
+    if(pro.nombre[0] === "J"){
+        console.log(pro);
+    }
+}

@@ -17,7 +17,10 @@ for (let i = 0; i < giveMeIntegerRandom(10); i++) {
 console.log('El array original es:  arr =', arr);
 
 // Aquí tu código
-
+var total = 0;
+for (prop of arr){
+    total += prop;
+}
 
 // Hasta aquí
 console.log('El total nuevo es: ', total);
